@@ -69,6 +69,8 @@ __Note__: If the person running the script is not a __Miro Company Admin__ in yo
 
 4.8. Find your SCIM token. You will find this token under __Apps and Integrations > Enterprise Integrations__. Copy this token and store it in a secure place. You will need to add it to the script.
 
+<img src="https://miro-org.s3.eu-central-1.amazonaws.com/board_classification/SCIM_Token.png" alt="Install and and get token screenshot" width="903" />
+
 ## Step 5. Run script `deactivateInactiveUsers.js` using the command line (CLI)
 
 5.1. Go to the directory where you have saved the file `deactivateInactiveUsers.js`.
