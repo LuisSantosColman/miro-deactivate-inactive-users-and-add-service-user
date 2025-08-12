@@ -95,8 +95,8 @@ __Note__: If the person running the script is not a __Miro Company Admin__ in yo
 5.6. Within the same folder where this script lives, the script creates a folder called `miro_deactivate_inactive_users_{current_date}`. Within this folder you will find the below reports:
 
   - `Inactive_Users_Results.csv`: Contains the results of the users to deactivate (if TEST_MODE was on) or that were deactivated (if TEST_MODE was off) in a .CSV file.
-  - `Affected_Teams_that_required_Service_User.csv`: Contains the results the addition of the Service Users to teams where the last Team Admin was to be deactivated.
-  - `Script_Logs.txt`: Contains an a log of operations performed by the script (for tracing in case of issues).
+  - `Affected_Teams_that_required_Service_User.csv`: Contains the results of the addition of the Service User to the Teams where the last Team Admin was to be deactivated.
+  - `Script_Logs.txt`: Contains a log of operations performed by the script (for tracing in case of issues).
   - `Errors.csv`: Contains API errors (if any) in a CSV file. This report is created only if errors occurred, otherwise the file will not be present.
 
 ## Support
