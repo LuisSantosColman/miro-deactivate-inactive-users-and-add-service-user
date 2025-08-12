@@ -67,7 +67,7 @@ __Note__: If the person running the script is not a __Miro Company Admin__ in yo
 
 <img src="https://miro-org.s3.eu-central-1.amazonaws.com/board_classification/get_miro_org_id_screenshot.png" alt="Install and and get token screenshot" width="903" />
 
-4.8. Find your SCIM token. You will find this token under __Apps and Integrations > Enterprise Integrations__. Copy this token and store it in a secure place. You will need to add it to the script.
+4.8. Find your __SCIM token__. You will find this token under __Apps and Integrations > Enterprise Integrations__. Copy this token and store it in a secure place. You will need to add it to the script.
 
 <img src="https://miro-org.s3.eu-central-1.amazonaws.com/board_classification/SCIM_Token.png" alt="Install and and get token screenshot" width="903" />
 
