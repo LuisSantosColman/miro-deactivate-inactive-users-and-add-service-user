@@ -49,7 +49,7 @@ __Note__: If the person running the script is not a __Miro Company Admin__ in yo
   `organizations:teams:read`<br>
   `organizations:teams:write`<br>
 
-<img src="https://miro-org.s3.eu-central-1.amazonaws.com/board_classification/remove_empty_teams_script_scopes.png" alt="API token scopes" width="700" />
+<img src="https://miro-org.s3.eu-central-1.amazonaws.com/board_classification/Deactivate_Users_And_Add_Service_User_Scopes.png" alt="API token scopes" width="700" />
 
 4.4. Click on __Install app and get OAuth token__
 
