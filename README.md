@@ -1,4 +1,4 @@
-# Miro - Deactivate Inactive Users and Add Service Users to Teams (Node.js)
+# Miro - Deactivate Inactive Users and Add Service User to Teams (Node.js)
 
 This repository contains a script in JavaScript/Node.js to identify inactive users and deactivate them using Miro's SCIM and REST API.
 
