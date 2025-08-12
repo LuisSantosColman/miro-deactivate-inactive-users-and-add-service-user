@@ -8,11 +8,11 @@ Script Author: Luis Colman (luis.s@miro.com) | LinkedIn: https://www.linkedin.co
 */
 
 let IS_TEST = true; 
-let MIRO_COMPANY_ID = 'YOUR_MIRO_ORGANIZATION_ID';
-let SCIM_TOKEN = 'YOUR_MIRO_SCIM_TOKEN';
-let REST_TOKEN = 'YOUR_MIRO_REST_API_TOKEN';
+const MIRO_COMPANY_ID = 'YOUR_MIRO_ORGANIZATION_ID';
+const SCIM_TOKEN = 'YOUR_MIRO_SCIM_TOKEN';
+const REST_TOKEN = 'YOUR_MIRO_REST_API_TOKEN';
 const SERVICE_ACCOUNT_EMAIL = 'EMAIL_OF_YOUR_SERVICE_ACCOUNT';
-let DAYS_OF_INACTIVITY = NUMBER_OF_DAYS_A_USER_MUST_BE_INACTIVE_TO_BE_ELEGIBLE_FOR_DEACTIVATION; /* add as number/integer (not as a string) */
+const DAYS_OF_INACTIVITY = NUMBER_OF_DAYS_A_USER_MUST_BE_INACTIVE_TO_BE_ELEGIBLE_FOR_DEACTIVATION; /* add as number/integer (not as a string) */
 
 /* SCRIPT BEGIN */
 
@@ -41,10 +41,10 @@ let log = {
     logBoardVal: ''
 };
 
-/* Number of days of inactivity a user must have to be considered "stale" */
-var today = new Date();
-var priorDate = new Date().setDate(today.getDate() - DAYS_OF_INACTIVITY)
-var lastAcceptedDate = new Date(priorDate).toISOString();
+/* Number of days of inactivity a user must have to be considered "inactive" */
+let today = new Date();
+let priorDate = new Date().setDate(today.getDate() - DAYS_OF_INACTIVITY)
+let lastAcceptedDate = new Date(priorDate).toISOString();
 
 /* Variables - END */
 
