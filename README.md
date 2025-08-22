@@ -2,6 +2,8 @@
 
 This repository contains a script in JavaScript/Node.js to identify inactive users and deactivate them using Miro's SCIM and REST API.
 
+The script also checks if any of the users to deactivate is the last Team Admin of a Miro Team and if yes, a Service User is added to the team in question as a Team Admin so that the deactivation of the user does not fail. This logic was added because currently users who are the last Team Admin of a Miro Team cannot be deactivated nor deleted. By adding a Service User as Team Admin into the Miro Team, the user to be deactivated is no longer the last Team Admin, which ensures the user gets deactivated successfully.
+
 The script provides a __TEST MODE__ flag to run it without performing any changes. (See __step 5__ further below).
 
 ## Disclaimer
