@@ -482,7 +482,7 @@ async function inviteServiceAccountAsTeamAdmin(numberOfRequestsForPost) {
     };
 
     let payload = JSON.stringify({
-        email: SERVICE_ACCOUNT_EMAIL, 
+        email: SERVICE_ACCOUNT_EMAIL.toLowerCase(), 
         role: 'admin'
     });
 
@@ -1334,7 +1334,7 @@ async function getUsersLastActivityDate(numberOfCalls) {
                                                 }
                                             }
                                             else {
-                                                let compareDateValue = (licenseAssignmentDate ? licenseAssignmentDate : '1990-01-01T00:00:00Z');
+                                                let compareDateValue = (licenseAssignmentDate ? licenseAssignmentDate : '1980-01-01T00:00:00Z');
                                                 if (compareDateValue < lastAcceptedDate) {
                                                     inactiveUsers[userId] = {
                                                         user_id: userId,
